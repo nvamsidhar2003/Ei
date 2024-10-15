@@ -46,7 +46,7 @@ class StockTicker {
 public class ObserverPatternDemo {
     public static void main(String[] args) {
         StockTicker stockTicker = new StockTicker();
-        Investor investor1 = new Investor("Sateesh");
+        Investor investor1 = new Investor("Vamsidhar");
         Investor investor2 = new Investor("Reddy");
 
         stockTicker.addObserver(investor1);
